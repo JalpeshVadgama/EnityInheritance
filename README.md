@@ -1,0 +1,4 @@
+EnityInheritance
+================
+
+EnityInheritance
