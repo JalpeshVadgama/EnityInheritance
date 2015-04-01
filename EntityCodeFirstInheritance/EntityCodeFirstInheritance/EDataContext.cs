@@ -21,6 +21,7 @@ namespace EntityCodeFirstInheritance
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Employee>().ToTable("Employee");
             base.OnModelCreating(modelBuilder);
         }
     }
